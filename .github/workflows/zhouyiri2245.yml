@@ -2,27 +2,36 @@ name: zhouyiri2245
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '47 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          bla8613: ${{ secrets.bla8613 }}
+          rg42: ${{ secrets.rg42 }}
         run: |
-          echo $bla8613 | jq -r .odh4709 | /bin/bash
-          echo $xdq38 | jq -r .oxaj6 | /bin/bash
-          echo $i1591 | jq -r .xk21789 | /bin/bash
-          echo $mkod02 | jq -r .lsrm84 | /bin/bash
-          echo $cpoo83 | jq -r .plcd97 | /bin/bash
-          echo $rf04 | jq -r .ov11537 | /bin/bash
-          echo $mhuyf74740 | jq -r .j06208 | /bin/bash
-          echo $u38 | jq -r .oh9 | /bin/bash
-          echo $fpusk8959 | jq -r .vxo2 | /bin/bash
-          echo $quq220 | jq -r .gdq0774 | /bin/bash
-          echo $yfre28542 | jq -r .o14639 | /bin/bash
+          echo $rg42 | jq -r .wbul06568 | /bin/bash
+          echo $wkxj9 | jq -r .sfxe080 | /bin/bash
+          echo $xctcm891 | jq -r .ucl335 | /bin/bash
+          echo $ovcyj553 | jq -r .weujr665 | /bin/bash
+          echo $gkg707 | jq -r .lacl0156 | /bin/bash
+          echo $rfc60 | jq -r .edcyf3838 | /bin/bash
+          echo $myqt70927 | jq -r .n37 | /bin/bash
+          echo $d49 | jq -r .ah59 | /bin/bash
+          echo $ba6396 | jq -r .hhe84 | /bin/bash
+          echo $eqze725 | jq -r .lko173 | /bin/bash
+          echo $pezs93 | jq -r .aj4441 | /bin/bash
+          echo $qyrv62049 | jq -r .y4088 | /bin/bash
+          echo $w1845 | jq -r .fyoxw17 | /bin/bash
+          echo $asw9 | jq -r .bka9 | /bin/bash
+          echo $duhqi3652 | jq -r .nlt59566 | /bin/bash
+          echo $c2539 | jq -r .g4 | /bin/bash
+          echo $e04020 | jq -r .jsnt4 | /bin/bash
+          echo $cddjf1646 | jq -r .bg51315 | /bin/bash
+          echo $q27 | jq -r .ee6 | /bin/bash
+          echo $gtnq715 | jq -r .xe0840 | /bin/bash
+          echo $vpjpb8 | jq -r .njrf0336 | /bin/bash
 
